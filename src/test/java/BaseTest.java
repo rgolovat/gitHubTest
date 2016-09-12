@@ -24,14 +24,8 @@ public class BaseTest {
     @Parameterized.Parameters
     public static java.util.Collection browsersStrings(){
         return Arrays.asList(new Object[][]{
-               // {BrowserType.CHROME},
+                {BrowserType.CHROME},
                 {BrowserType.FIREFOX},
-                //{BrowserType.SAFARI},
-//                {BrowserType.IE},
-//                {BrowserType.PHANTOM},
-//                {BrowserType.CHROME_REMOTE},
-                //{BrowserType.FIREFOX_REMOTE},
-                //{BrowserType.IE_REMOTE}
 
         });
     }
